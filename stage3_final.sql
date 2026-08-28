@@ -1,0 +1,7 @@
+USE mall;
+SELECT COUNT(*) FROM user_info WHERE dt='2026-08-19';
+SELECT COUNT(*) FROM user_info WHERE dt='2026-08-20';
+SELECT COUNT(*) FROM sku_info WHERE dt='2026-08-19';
+SELECT COUNT(*) FROM order_info WHERE dt='2026-08-19';
+SELECT COUNT(*) FROM order_info WHERE dt='2026-08-20';
+SHOW PARTITIONS user_info;

@@ -1,0 +1,5 @@
+USE mall;
+SELECT * FROM user_info WHERE dt='2026-08-19' LIMIT 3;
+SELECT COUNT(*) FROM user_info WHERE dt='2026-08-19';
+SELECT COUNT(*) FROM order_info WHERE dt='2026-08-19';
+SELECT COUNT(*) FROM order_info WHERE dt='2026-08-20';

@@ -1,0 +1,31 @@
+# WSL 虚拟磁盘
+WSL/
+*.vhdx
+
+# 安装包 / 压缩包
+*.tar.gz
+*.zip
+*.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+venv_win/
+
+# 环境配置
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
